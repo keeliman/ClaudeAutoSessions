@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1234567890ABCD /* ClaudeSchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABCC /* ClaudeSchedulerApp.swift */; };
+		2A1234567890ABCE /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABCF /* MenuBarController.swift */; };
+		2A1234567890ABD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABD1 /* AppDelegate.swift */; };
+		2A1234567890ABD2 /* CircularProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABD3 /* CircularProgressRing.swift */; };
+		2A1234567890ABD4 /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABD5 /* ContextMenuView.swift */; };
+		2A1234567890ABD6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABD7 /* SettingsView.swift */; };
+		2A1234567890ABD8 /* SchedulerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABD9 /* SchedulerViewModel.swift */; };
+		2A1234567890ABDA /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABDB /* SettingsViewModel.swift */; };
+		2A1234567890ABDC /* SchedulerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABDD /* SchedulerEngine.swift */; };
+		2A1234567890ABDE /* ProcessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABDF /* ProcessManager.swift */; };
+		2A1234567890ABE0 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABE1 /* NotificationManager.swift */; };
+		2A1234567890ABE2 /* SchedulerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABE3 /* SchedulerState.swift */; };
+		2A1234567890ABE4 /* SessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABE5 /* SessionData.swift */; };
+		2A1234567890ABE6 /* ColorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABE7 /* ColorSystem.swift */; };
+		2A1234567890ABE8 /* AnimationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABE9 /* AnimationConstants.swift */; };
+		2A1234567890ABEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1234567890ABEB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A1234567890ABC9 /* ClaudeScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClaudeScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1234567890ABCC /* ClaudeSchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeSchedulerApp.swift; sourceTree = "<group>"; };
+		2A1234567890ABCF /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		2A1234567890ABD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A1234567890ABD3 /* CircularProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressRing.swift; sourceTree = "<group>"; };
+		2A1234567890ABD5 /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
+		2A1234567890ABD7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2A1234567890ABD9 /* SchedulerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerViewModel.swift; sourceTree = "<group>"; };
+		2A1234567890ABDB /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		2A1234567890ABDD /* SchedulerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerEngine.swift; sourceTree = "<group>"; };
+		2A1234567890ABDF /* ProcessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessManager.swift; sourceTree = "<group>"; };
+		2A1234567890ABE1 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		2A1234567890ABE3 /* SchedulerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerState.swift; sourceTree = "<group>"; };
+		2A1234567890ABE5 /* SessionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionData.swift; sourceTree = "<group>"; };
+		2A1234567890ABE7 /* ColorSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSystem.swift; sourceTree = "<group>"; };
+		2A1234567890ABE9 /* AnimationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationConstants.swift; sourceTree = "<group>"; };
+		2A1234567890ABEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A1234567890ABEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1234567890ABED /* ClaudeScheduler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClaudeScheduler.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1234567890ABC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A1234567890ABC0 = {
+			isa = PBXGroup;
+			children = (
+				2A1234567890ABCB /* ClaudeScheduler */,
+				2A1234567890ABEF /* ClaudeSchedulerTests */,
+				2A1234567890ABCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A1234567890ABCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A1234567890ABC9 /* ClaudeScheduler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A1234567890ABCB /* ClaudeScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				2A1234567890ABF0 /* App */,
+				2A1234567890ABF1 /* Views */,
+				2A1234567890ABF2 /* ViewModels */,
+				2A1234567890ABF3 /* Services */,
+				2A1234567890ABF4 /* Models */,
+				2A1234567890ABF5 /* Utilities */,
+				2A1234567890ABEB /* Assets.xcassets */,
+				2A1234567890ABEC /* Info.plist */,
+				2A1234567890ABED /* ClaudeScheduler.entitlements */,
+			);
+			path = ClaudeScheduler;
+			sourceTree = "<group>";
+		};
+		2A1234567890ABEF /* ClaudeSchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ClaudeSchedulerTests;
+			sourceTree = "<group>";
+		};
+		2A1234567890ABF0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2A1234567890ABCC /* ClaudeSchedulerApp.swift */,
+				2A1234567890ABCF /* MenuBarController.swift */,
+				2A1234567890ABD1 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2A1234567890ABF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A1234567890ABD3 /* CircularProgressRing.swift */,
+				2A1234567890ABD5 /* ContextMenuView.swift */,
+				2A1234567890ABD7 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A1234567890ABF2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2A1234567890ABD9 /* SchedulerViewModel.swift */,
+				2A1234567890ABDB /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2A1234567890ABF3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2A1234567890ABDD /* SchedulerEngine.swift */,
+				2A1234567890ABDF /* ProcessManager.swift */,
+				2A1234567890ABE1 /* NotificationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2A1234567890ABF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A1234567890ABE3 /* SchedulerState.swift */,
+				2A1234567890ABE5 /* SessionData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A1234567890ABF5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2A1234567890ABE7 /* ColorSystem.swift */,
+				2A1234567890ABE9 /* AnimationConstants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A1234567890ABC8 /* ClaudeScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1234567890ABF6 /* Build configuration list for PBXNativeTarget "ClaudeScheduler" */;
+			buildPhases = (
+				2A1234567890ABC5 /* Sources */,
+				2A1234567890ABC6 /* Frameworks */,
+				2A1234567890ABC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClaudeScheduler;
+			productName = ClaudeScheduler;
+			productReference = 2A1234567890ABC9 /* ClaudeScheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A1234567890ABC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2A1234567890ABC8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2A1234567890ABC4 /* Build configuration list for PBXProject "ClaudeScheduler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A1234567890ABC0;
+			productRefGroup = 2A1234567890ABCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A1234567890ABC8 /* ClaudeScheduler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A1234567890ABC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1234567890ABEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A1234567890ABC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1234567890ABCD /* ClaudeSchedulerApp.swift in Sources */,
+				2A1234567890ABCE /* MenuBarController.swift in Sources */,
+				2A1234567890ABD0 /* AppDelegate.swift in Sources */,
+				2A1234567890ABD2 /* CircularProgressRing.swift in Sources */,
+				2A1234567890ABD4 /* ContextMenuView.swift in Sources */,
+				2A1234567890ABD6 /* SettingsView.swift in Sources */,
+				2A1234567890ABD8 /* SchedulerViewModel.swift in Sources */,
+				2A1234567890ABDA /* SettingsViewModel.swift in Sources */,
+				2A1234567890ABDC /* SchedulerEngine.swift in Sources */,
+				2A1234567890ABDE /* ProcessManager.swift in Sources */,
+				2A1234567890ABE0 /* NotificationManager.swift in Sources */,
+				2A1234567890ABE2 /* SchedulerState.swift in Sources */,
+				2A1234567890ABE4 /* SessionData.swift in Sources */,
+				2A1234567890ABE6 /* ColorSystem.swift in Sources */,
+				2A1234567890ABE8 /* AnimationConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A1234567890ABC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A1234567890ABC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2A1234567890ABF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClaudeScheduler/ClaudeScheduler.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClaudeScheduler/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClaudeScheduler;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudescheduler.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A1234567890ABF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClaudeScheduler/ClaudeScheduler.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClaudeScheduler/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClaudeScheduler;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudescheduler.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A1234567890ABC4 /* Build configuration list for PBXProject "ClaudeScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1234567890ABC2 /* Debug */,
+				2A1234567890ABC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1234567890ABF6 /* Build configuration list for PBXNativeTarget "ClaudeScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1234567890ABF7 /* Debug */,
+				2A1234567890ABF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A1234567890ABC1 /* Project object */;
+}
